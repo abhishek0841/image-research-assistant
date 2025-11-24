@@ -72,8 +72,6 @@ The agent will autonomously determine that it must first call the load_image_fro
 
 As we can see, our VisualAnalysisServer has successfully analyzed the image and generated a detailed, accurate description. The agent correctly identified the image as depicting the Pyramids of Giza in Egypt.
 
-![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
-
-
 By successfully building the VisualAnalysisServer, we have done more than just implement a tool; we have given our agent a new sense. We have demonstrated how a complex, multimodal process can be neatly encapsulated within a self-contained MCP server, exposing its powerful capabilities through a simple, standardized interface. The text description our server now produces is not the final answer: it is the crucial piece of evidence that will fuel the next stage of our agent’s research. We have successfully translated pixels into meaning, setting the stage for transforming that meaning into knowledge.
 
+![MIT License](https://img.shields.io/badge/License-MIT-blue.svg)
