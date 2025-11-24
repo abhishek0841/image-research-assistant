@@ -67,6 +67,7 @@ Input: Please analyze the image at "/usercode/pyramid.jpeg" and give me its deta
 <img width="757" height="498" alt="image" src="https://github.com/user-attachments/assets/508943d2-3d67-4567-a9bb-e3d313ad1417" />
 
 The agent will autonomously determine that it must first call the load_image_from_path tool and then use that output to call the get_image_description tool. The final output from our running application will look like this:
+
 <img width="1404" height="411" alt="image" src="https://github.com/user-attachments/assets/c0d383e9-8f61-4173-8343-e0dd1f9bb9bf" />
 
 As we can see, our VisualAnalysisServer has successfully analyzed the image and generated a detailed, accurate description. The agent correctly identified the image as depicting the Pyramids of Giza in Egypt.
