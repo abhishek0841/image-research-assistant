@@ -45,7 +45,7 @@ def get_image_description(base64_image_string: str, mime_type: str) -> str:
             "Do not add any conversational filler; return only the description."
         )
 
-        model = genai.Client('gemini-2.5-flash', google_api_key="AIzaSyD6dsQNGatTB9qxaxe6_cWvWb-CFv_4o4Q")
+        model = genai.Client('gemini-2.5-flash', google_api_key="")
         # The generate_content call now uses the correctly typed image_part object
         response = model.generate_content([image_part, prompt_text])
         
